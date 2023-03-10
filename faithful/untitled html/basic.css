@@ -1,0 +1,39 @@
+/* p.error{  
+  color: brown;
+}
+p.success{
+  color: cadetblue;
+}
+p.success.feedback{
+  color: chartreuse;
+  border: 1px dashed;
+  margin: 20px;
+  padding: 20px;
+}
+div#content{
+  background-color: coral;
+  padding: 20px;
+}
+ div .error{  
+  color: plum;
+ } 
+ a[href]{
+  background-color: coral;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight:bold;
+  text-transform: capitalize;
+ } */
+div {
+  color: blueviolet;
+  border: 1px solid brown;
+  margin: 40px;
+  font-weight: bold;
+}
+div p{
+  border: inherit;
+  margin: inherit;
+}
+p{
+  color: coral;
+}
